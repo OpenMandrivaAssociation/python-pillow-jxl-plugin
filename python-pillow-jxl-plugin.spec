@@ -9,6 +9,7 @@ Group:		Development/Python
 BuildRequires:  rust-packaging
 BuildRequires:  pkgconfig(python3)
 BuildRequires:	python%{py_ver}dist(pip)
+BuildRequires:  python%{py_ver}dist(maturin)
 BuildRequires:  pkgconfig(libjxl)
 BuildSystem:  python
 BuildArch:	noarch
